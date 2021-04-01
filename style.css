@@ -110,3 +110,8 @@ body {
     width: 300px;
     margin-bottom: 35px;
 }
+
+#usericon {
+    height: 50px;
+    width: 50px;
+}
