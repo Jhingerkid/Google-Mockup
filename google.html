@@ -11,22 +11,28 @@
     <body>
         <div class="navbar">
             <div class="left-navbar">
-                <a class="fontplain16" href="https://www.google.com">About</a>
-                <a class="fontplain16" href="https://www.google.com">Store</a>
+                <a href="https://www.google.com">About</a>
+                <a href="https://www.google.com">Store</a>
             </div>
             <div class="right-navbar">
-                <a class="fontplain18" href="https://www.google.com">Gmail</a>
-                <a class="fontplain18" href="https://www.google.com">Images</a>
-                <img id="usergrid" src="https://raw.githubusercontent.com/Jhingerkid/Google-Mockup/main/images/3x3dotIcon.png">
-                <img id="usericon" src="https://raw.githubusercontent.com/Jhingerkid/Google-Mockup/main/images/circleicon.png"></img>
+                <a href="https://www.google.com">Gmail</a>
+                <a href="https://www.google.com">Images</a>
+                <img id="usergrid" src="images\3x3dotIcon.png">
+                <img id="usericon" src="images\circleicon.png"></img>
+                <div class="circlecontainer">
+                    <div id="circle"></div>
+                    <div id="circle"></div>
+                </div>
             </div>
         </div>
         <div class="searchbar">
             <img id="google" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></img>
-            <form action="https://google.com/search" method="get">
-                <input type="hidden" name="sitesearch" />
-                <input class="query" type="text" name="q" />
-            </form>
+            <div class="query">
+                <img class="magnifyglass" id="magnifyglass" src="images\magnifyingglass.png">
+                <form action="https://google.com/search">
+                    <input type="text" name="q"/>                
+                </form>
+            </div>
             <div>
                 <input class="searchbutton" value="Google Search" name="searchbutton" type="submit">
                 <input class="searchbutton" value="I'm Feeling Lucky" name="searchbutton" type="submit">
@@ -34,18 +40,18 @@
         </div>
         <div class="bottombar">
             <div class="left-bottombar">
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">Advertising</a>
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">Business</a>
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">How Search works</a>
+                <a href="https://www.google.com">Advertising</a>
+                <a href="https://www.google.com">Business</a>
+                <a href="https://www.google.com">How Search works</a>
             </div>
             <div class="center-bottombar">
-                <img class="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"></img>
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">Carbon neutral since 2007</a>
+                <img class="leaf" src="images\leaf.png"></img>
+                <a href="https://www.google.com">Carbon neutral since 2007</a>
             </div>
             <div class="right-bottombar">
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">Privacy</a>
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">Terms</a>
-                <a class=fontplain16 style="color: gray;" href="https://www.google.com">Settings</a>
+                <a href="https://www.google.com">Privacy</a>
+                <a href="https://www.google.com">Terms</a>
+                <a href="https://www.google.com">Settings</a>
             </div>
         </div>
     </body>
