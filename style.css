@@ -151,6 +151,19 @@ body {
     width: 92px;
 }
 
+.circle {
+    display: none;
+    z-index: -1;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+#usergrid:hover > .circle{
+    display: block;
+}
+
 #google {
     height: 100px;
     width: 300px;
@@ -173,12 +186,4 @@ body {
 
 #magnifyglass {
     margin-left: 10px;
-}
-
-#circle {
-    z-index: -1;
-    height: 45px;
-    width: 45px;
-    border-radius: 25px;
-    background-color: lightgray;
 }
