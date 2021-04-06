@@ -34,8 +34,10 @@ body {
 
 .right-navbar {
     display: flex;
-    margin: 12px;
+    margin-top: 12px;
+    margin-right: 25px;
     align-items: center;
+    height: 50px;
 }
 
 .right-navbar a {
@@ -47,10 +49,6 @@ body {
 
 .right-navbar a:hover {
     text-decoration: underline;
-}
-
-.right-navbar img:hover {
-    outline: 400px gray;
 }
 
 .searchbar {
@@ -69,6 +67,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
+}
+
+.query:hover {
+    box-shadow: 5px 5px 8px #888888;
 }
 
 .query input {
@@ -105,6 +108,10 @@ body {
     text-decoration: none;
 }
 
+.bottombar a:hover {
+    text-decoration: underline;
+}
+
 .center-bottombar {
     display: flex;
     flex-direction: row;
@@ -131,6 +138,10 @@ body {
     border-radius: 3px;
 }
 
+.searchbutton:hover {
+    box-shadow: 2px 2px 4px #888888;
+}
+
 .leaf {
     margin-right: 5px;
     width: 15px;
@@ -142,15 +153,6 @@ body {
     padding-left: 10px;
 }
 
-.circlecontainer{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    justify-content: space-between;
-    right: 7px;
-    width: 92px;
-}
-
 .circle {
     display: none;
     z-index: -1;
@@ -160,20 +162,20 @@ body {
     background-color: lightgray;
 }
 
-#usergrid:hover > .circle{
-    display: block;
-}
-
 #google {
     height: 100px;
     width: 300px;
     margin-bottom: 35px;
 }
 
+#google:hover {
+    cursor: pointer;
+}
+
 #usericon {
     height: 35px;
     width: 35px;
-    cursor: pointer;
+    border: 5px solid transparent;
 }
 
 #usergrid {
@@ -181,7 +183,15 @@ body {
     width: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    border: 10px solid transparent;
     cursor: pointer;
+}
+
+#usericon:hover {   
+    border: 5px solid lightgray;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 #magnifyglass {
